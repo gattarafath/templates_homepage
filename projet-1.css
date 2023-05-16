@@ -1,0 +1,45 @@
+.header-location{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45%;
+}
+.header-hours{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35%;
+}
+.header-tel{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 67%;
+}
+footer{
+    text-align: center;
+}
+
+.block{
+    margin-top: 5%;
+    
+} 
+span{
+    font-weight:bolder;
+    color:deepskyblue;
+    font-size: 20px;
+    font-family:"Poppins" ;
+}
+
+.global{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin-left:5%;
+    padding: 0%;
+}/*
+.ifram{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}*/
+
+
+
