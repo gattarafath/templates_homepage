@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Monformulaire.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <h1>Formulaire de contact</h1>
+    <p>Merci de nous laisser vos questions, commentaires ou suggestions en complétant ce formulaire</p>
+    <hr>
+    <!--  formulaire -->
+    <div id="form">
+        <form class="formulaire" action="">
+            <label for="nom">Nom</label> <br>
+            <!-- Block formulaire nom-->
+            <div class="name">
+                <!-- cette div permet d'afficher le prenom-->
+                <div class="last-name">
+                    <input class="form-input" type="text" name="Prenom" id="Prenom" placeholder="Prenom"
+                        required="required">
+                </div>
+                <!-- cette div permet d'afficher le nom-->
+                <div class="firt-name ">
+                    <input class="form-input" type="text" name="nom" id="nom" placeholder="Nom" required="required">
+                </div>
+            </div> <br>
+            <!-- Block formulaire mail-->
+            <div>
+                <label for="mail">Mail</label> <br>
+                <input class="form-input" type="email" name="mail" id="email" required="required">
+            </div> <br>
+            <!-- Block formulaire telephone -->
+            <div>
+                <label for="telephone">Telephone</label> <br>
+                <input class="form-input" type="tel" name="numeros" id="tel" placeholder="### ### ###"
+                    required="required">
+            </div> <br>
+            <!-- Block formulaire choix du sujet-->
+            <div>
+                <label for="liste">Sujet du message</label> <br>
+                <select class="form_liste" name="sujet" id="liste" required="required">
+                    <option value="demande">Demande</option>
+                    <option value="Proposition">Proposition</option>
+                    <option value="Suggestion">Suggestion</option>
+                    <option value="Autres">Autres</option>
+
+                </select>
+            </div> <br>
+            <!-- Block formulaire message-->
+            <div>
+                <label for="message">Message</label> <br>
+                <textarea name="texte" id="mes" cols="20" rows="5" required="required"></textarea>
+            </div> <br>
+            <!--utiliser pour le bouton-->
+            <div class="envoyer">
+                <button type="submit">Envoyer</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
