@@ -34,7 +34,7 @@ button{
     background-color: blueviolet;
     padding: 1%;
 }
-/*
+
 @media screen and (max-width:1000px) {
     body{
         font-size: 20px;
@@ -42,4 +42,4 @@ button{
         margin-left: 0%;
         
     }
-}*/
+}
